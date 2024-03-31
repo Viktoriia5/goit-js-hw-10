@@ -15,7 +15,7 @@ startBtn.addEventListener('click', onClickStartTimer);
 
 let userSelectedDate = '';
 let intervalId = '';
-
+disableBtn();
 const options = {
   enableTime: true,
   time_24hr: true,
